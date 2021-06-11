@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z_Digit", "Z_Digit\Z_Digit.csproj", "{7779F6AE-35F3-4395-9D1E-27464E9CD1DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NdubuisiJr.Z_Digit.Domain", "NdubuisiJr.Z_Digit.Domain\NdubuisiJr.Z_Digit.Domain.csproj", "{77242813-E7F0-4053-911A-82FC094400E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NdubuisiJr.Z_Digit.Infrastructure", "NdubuisiJr.Z_Digit.Infrastructure\NdubuisiJr.Z_Digit.Infrastructure.csproj", "{6C24F77A-C318-4B93-9DE3-A909045B22F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NdubuisiJr.Z_Digit.Module", "NdubuisiJr.Z_Digit.Module\NdubuisiJr.Z_Digit.Module.csproj", "{889095CE-1F1B-408B-87D9-483BDCD9E8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NdubuisiJr.Z_Digit.Data", "NdubuisiJr.Z_Digit.Data\NdubuisiJr.Z_Digit.Data.csproj", "{B0CC4916-8709-42EC-A623-369EA9ECDD39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NdubuisiJr.Z_Digit.Resources", "NdubuisiJr.Z_Digit.Resources\NdubuisiJr.Z_Digit.Resources.csproj", "{0D62D4EE-C82C-45BC-B05F-4476B089EF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7779F6AE-35F3-4395-9D1E-27464E9CD1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7779F6AE-35F3-4395-9D1E-27464E9CD1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7779F6AE-35F3-4395-9D1E-27464E9CD1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7779F6AE-35F3-4395-9D1E-27464E9CD1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77242813-E7F0-4053-911A-82FC094400E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77242813-E7F0-4053-911A-82FC094400E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77242813-E7F0-4053-911A-82FC094400E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77242813-E7F0-4053-911A-82FC094400E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C24F77A-C318-4B93-9DE3-A909045B22F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C24F77A-C318-4B93-9DE3-A909045B22F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C24F77A-C318-4B93-9DE3-A909045B22F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C24F77A-C318-4B93-9DE3-A909045B22F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889095CE-1F1B-408B-87D9-483BDCD9E8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889095CE-1F1B-408B-87D9-483BDCD9E8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889095CE-1F1B-408B-87D9-483BDCD9E8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889095CE-1F1B-408B-87D9-483BDCD9E8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CC4916-8709-42EC-A623-369EA9ECDD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CC4916-8709-42EC-A623-369EA9ECDD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CC4916-8709-42EC-A623-369EA9ECDD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CC4916-8709-42EC-A623-369EA9ECDD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D62D4EE-C82C-45BC-B05F-4476B089EF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D62D4EE-C82C-45BC-B05F-4476B089EF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D62D4EE-C82C-45BC-B05F-4476B089EF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D62D4EE-C82C-45BC-B05F-4476B089EF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

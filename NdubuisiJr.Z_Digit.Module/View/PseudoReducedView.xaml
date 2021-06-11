@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="NdubuisiJr.Z_Digit.Module.View.PseudoReducedView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NdubuisiJr.Z_Digit.Module.View"
+             xmlns:ctb="clr-namespace:NdubuisiJr.Z_Digit.Resources.CustomControls;assembly=NdubuisiJr.Z_Digit.Resources"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Gainsboro"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Gray"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="1">
+                <TextBlock Text="Pseudo Reduced Pressure"/>
+                <ctb:CustomTextBox Text="{Binding ReducedEntry.ReducedPressure,Mode=TwoWay}" ValueType="Double"/>
+            </StackPanel>
+            <StackPanel Grid.Column="3">
+                <TextBlock Text="Pseudo Reduced Temperature"/>
+                <ctb:CustomTextBox Text="{Binding ReducedEntry.ReducedTemperature,Mode=TwoWay}" ValueType="Double"/>
+            </StackPanel>
+            <Button Grid.Column="5" Content="Read" Height="25" Margin="0,9,0,0" IsDefault="True" 
+                    ToolTip="Reads the digitized chart" Command="{Binding ReadCommand}"/>
+        </Grid>
+        <TextBlock Text="{Binding ReducedEntry.Zfactor}" FontSize="100" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1"/>
+    </Grid>
+</UserControl>
